@@ -1,5 +1,5 @@
 # Project Title
-** **
+Multi-point KZG Proof Verification for the EVM
 
 ## Team
 **Team/Individual Name:**  
