@@ -36,9 +36,13 @@ This project aims to make that possible by implementing multi-point KZG proof ve
 - Studied the multiproof algorithm by hand, covering all core concepts why it’s needed and what problem it solves 
 
 ### Week 2  
-- Developed the KZG implementation in Python for countertesting with the precompile
-- Presented a demo outlining the problem and identified a blocker related to the pairing verification the issue came from the EVM’s implementation, which uses a mirroring optimization (`-G₂`) as defined in the pairing precompile which was confusing me
+- Developed the [KZG implementation in Python](https://github.com/protocolwhisper/arg25-Projects/blob/main/multikzg/assets/python_impl/kzg.py) to improve prototyping and deepen understanding of the applied cryptography
+- Presented a demo outlining the problem and identified a blocker related to the pairing verification the issue came from the EVM’s implementation, which uses a mirroring optimization (`-G₂`) in the pairing precompile, causing a mismatch with my Python version
+- Added a [test](https://github.com/protocolwhisper/arg25-Projects/blob/main/multikzg/assets/python_impl/testkzg.py) to validate the Python implementation and align results with the EVM behavior
 - Began implementing the precompile in REVM, but encountered issues when testing it against the Python implementation
+
+
+
 
 
 
