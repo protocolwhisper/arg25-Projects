@@ -3,7 +3,7 @@
 import sys
 sys.path.insert(0, '.')
 
-from minikzg import KZG
+from kzg import KZG
 
 def main():
     # Initialize KZG
