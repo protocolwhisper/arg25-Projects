@@ -35,8 +35,12 @@ This project aims to make that possible by implementing multi-point KZG proof ve
 - Conducted research in cryptography and created [this notebook](https://github.com/protocolwhisper/arg25-Projects/blob/main/multikzg/assets/fromblobs.ipynb) explaining how blobs are mapped to finite fields.  
 - Studied the multiproof algorithm by hand, covering all core concepts why it’s needed and what problem it solves 
 
-### Week 2 
-- 
+### Week 2  
+- Developed the KZG implementation in Python for countertesting with the precompile
+- Presented a demo outlining the problem and identified a blocker related to the pairing verification the issue came from the EVM’s implementation, which uses a mirroring optimization (`-G₂`) as defined in the pairing precompile which was confusing me
+- Began implementing the precompile in REVM, but encountered issues when testing it against the Python implementation
+
+
 
 ## References
 - **KZG:** [https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html](https://dankradfeist.de/ethereum/2020/06/16/kate-polynomial-commitments.html)  

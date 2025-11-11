@@ -2,6 +2,8 @@ from sage.all import *
 from py_ecc.bls.g2_primitives import compress_G1, compress_G2
 from py_ecc.optimized_bls12_381 import FQ, FQ2, G1, G2
 
+# This implementation is for counter-testing for the revm precompile
+
 # BLS12-381 curve parameters (This are public)
 BLS12_381_P = 0x1a0111ea397fe69a4b1ba7b6434bacd764774b84f38512bf6730d2a0f6b0f6241eabfffeb153ffffb9feffffffffaaab
 BLS12_381_R = 0x73eda753299d7d483339d80809a1d80553bda402fffe5bfeffffffff00000001
