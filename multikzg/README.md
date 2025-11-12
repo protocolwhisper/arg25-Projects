@@ -41,6 +41,7 @@ This project aims to make that possible by implementing multi-point KZG proof ve
 - Added a [test](https://github.com/protocolwhisper/arg25-Projects/blob/main/multikzg/assets/python_impl/testkzg.py) to validate the Python implementation and align results with the EVM behavior
 - Began implementing the precompile in REVM, but encountered issues when testing it against the Python implementation
 
+### Week 3
 
 
 
