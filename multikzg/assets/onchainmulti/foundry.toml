@@ -5,6 +5,11 @@ libs = ["lib"]
 evm_version = "cancun"  # BLS12-381 precompiles (EIP-2537) are available from Berlin onwards, but Cancun is safer
 via_ir = true  # Enable IR-based code generation which may help with precompiles
 
+# Sepolia testnet configuration
+[rpc_endpoints]
+sepolia = "https://rpc.sepolia.org"
+sepolia_ankr = "https://rpc.ankr.com/eth_sepolia"
+
 # For testing on a real network with BLS12-381 precompiles, use:
 # forge test --fork-url <RPC_URL> --fork-block-number <BLOCK_NUMBER>
 # Example: forge test --fork-url https://sepolia.infura.io/v3/YOUR_KEY --fork-block-number 5000000
