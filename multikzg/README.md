@@ -42,8 +42,8 @@ This project aims to make that possible by implementing multi-point KZG proof ve
 - Began implementing the precompile in REVM, but encountered issues when testing it against the Python implementation
 
 ### Week 3
-
-
+ - Implementation of the precompile is in https://github.com/protocolwhisper/revm
+ - Contracts are available but the precompile it's not on any testnet 
 
 
 
