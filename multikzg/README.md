@@ -42,8 +42,8 @@ This project aims to make that possible by implementing multi-point KZG proof ve
 - Began implementing the precompile in REVM, but encountered issues when testing it against the Python implementation
 
 ### Week 3
- - Implementation of the precompile is in https://github.com/protocolwhisper/revm
- - Contracts are available but the precompile it's not on any testnet 
+ - Implementation of the precompile is in https://github.com/protocolwhisper/revm/blob/main/crates/precompile/src/kzg_multipoint_evaluation.rs
+ - Contracts are available but the precompile it's not on any testnet cause limitations of pairing bls12381 availability but you can check the impl here https://github.com/protocolwhisper/arg25-Projects/blob/main/multikzg/assets/onchainmulti/src/KZGMultipointVerifier.sol
 
 
 
