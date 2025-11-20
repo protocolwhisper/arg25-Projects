@@ -4,7 +4,7 @@ On-chain Solidity contract for verifying KZG multipoint evaluation proofs using 
 
 ## Overview
 
-Verifies KZG multipoint proofs using the **BLS12-381 pairing precompile at address `0x0F`** (EIP-2537).
+Verifies KZG multipoint proofs using the **BLS12-381 pairing precompile at address `0x0F`**.
 
 **Note:** The KZG multipoint evaluation precompile is at address `0x12` (0x0B-0x11 are taken by BLS12-381 precompiles).
 
