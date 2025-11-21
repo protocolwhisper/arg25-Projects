@@ -1,3 +1,0 @@
-[submodule "multikzg/assets/revm"]
-	path = multikzg/assets/revm
-	url = https://github.com/protocolwhisper/revm.git
